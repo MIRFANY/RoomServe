@@ -4,6 +4,8 @@ import { onAuthStateChanged } from "firebase/auth";
 import { doc, getDoc } from "firebase/firestore";
 import { auth, db } from "./firebase";
 
+// firebase and other pages import
+
 import HotelSignup from "./pages/HotelSignup";
 import HotelLogin from "./pages/HotelLogin";
 import SuperAdminDashboard from "./pages/SuperAdminDashboard";
