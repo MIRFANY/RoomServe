@@ -15,6 +15,7 @@ import CheckoutBilling from "./pages/checkout-billing";
 import CustomerApp from "./pages/customer-app";
 
 // ─── Wrappers that pull hotelId from URL ──────────────────────
+// wrappers that pull
 function AdminPanelPage() {
   const { hid } = useParams();
   return <HotelAdminPanel hotelId={hid} />;
