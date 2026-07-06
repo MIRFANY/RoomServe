@@ -13,6 +13,8 @@ export default function HotelSignup() {
   const [error, setError] = useState("");
   const [success, setSuccess] = useState(false);
 
+  // handle signup
+
   const update = (k, v) => setForm(f => ({ ...f, [k]: v }));
 
   const handleSignup = async () => {
