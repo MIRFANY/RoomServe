@@ -9,6 +9,9 @@ function formatDate(ts) {
   return d.toLocaleDateString("en-IN", { day: "2-digit", month: "short", year: "numeric" });
 }
 
+//  format date
+
+
 const STATUS_CONFIG = {
   pending:   { label: "Pending",   color: "#d4a017", bg: "#2a2208", border: "#d4a01733", dot: "#f0c040" },
   active:    { label: "Active",    color: "#4caf82", bg: "#0a2018", border: "#4caf8233", dot: "#4caf82" },
