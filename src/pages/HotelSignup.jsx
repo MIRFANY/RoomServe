@@ -57,6 +57,8 @@ export default function HotelSignup() {
         createdAt: serverTimestamp(),
       });
 
+      //  hotel signup
+
       await auth.signOut(); // Sign out until approved
       setSuccess(true);
     } catch (e) {
